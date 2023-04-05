@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+    <nav>
+		<h1>Bem Vindo!</h1>
+	</nav>
+    <!-- NAV BAR -->
+
+    <!-- Carrossel -->
+    <div class="container">
+        <button class="seta1 control" aria-label="proxima">◀</button>
+        <button class="seta2 control" aria-label="anterior">▶</button>
+        <div class="galeria-get">
+          <div class="galeria">
+            <img src="Img/Img_01.jpg" class="img">
+            <img src="Img/Img_02.jpg" class="img">
+            <img src="Img/Img_03.jpg" class="img">
+          </div>
+        </div>
+      </div>
+      <!-- Carrossel -->
+
+    <hr>
+
+    <!-- API CHAT GPT -->
+    <div class="chat">
+        <textarea placeholder="Essa será a sua resposta!" id="resposta"  row="20" readonly></textarea>
+        <br>    
+        <textarea placeholder="Qual é a sua pergunta?" id="pergunta" row="20"></textarea>
+    </div>
+    <!-- API CHAT GPT -->
+
+    <!-- FOOOTER -->
+    <footer>
+		<div>
+			<p>&copy; Universidade de Vassouras</p>
+            <p>04/04/2023</p>
+		</div>
+	</footer>
+    <!-- FOOOTER -->
+    
+    <script src="script.js"></script>
+</body>
+</html>

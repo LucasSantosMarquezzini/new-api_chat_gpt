@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  /* Reset */
+
+
+body{
+    background-color: rgb(248, 255, 206);
+} /* Body */
+
+hr {
+    border-color: rgb(0, 0, 0);
+}
+
+nav {
+	background-color:  #ffffff;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color: rgb(0, 0, 0);
+} /* Nav Bar */
+
+.chat{
+    margin-top: 5%;
+    display: grid;
+    object-fit: none;
+    justify-content: center;
+} /* API CHAT GTP */
+
+.chat textarea{
+    height: 300px;
+    width: 500px;
+} /* API CHAT GTP */
+
+footer {
+    margin-top: 6.6%;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 20px 0;
+} /* Footer */
+
+footer p {
+	margin: 0;
+	text-align: center;
+} /* Footer */
+
+
+/* API CHAT GTP */
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  
+  .galeria {
+    overflow-x: auto;
+  }
+  
+  .seta1,
+  .seta2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .seta1:hover,
+  .seta2:hover {
+    opacity: 1;
+  }
+  
+  .seta2 {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .galeria {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  
+  .img {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 5.5;
+  }
+  
+
+  
